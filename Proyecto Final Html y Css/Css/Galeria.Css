@@ -1,0 +1,253 @@
+#imagen1
+{
+    height: 150px;
+    width: 170px;
+    margin-left: 570px;
+    
+}
+
+body
+{
+    background-color: #fef2e5;
+    padding: 20px;
+    width: 1326px;
+    height: 400px;
+    margin-top:05px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family:serif;
+}
+
+ul
+{
+    list-style-type: none;
+}
+.Nav
+{
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    margin-left: 420px;
+}
+
+#Menu
+{
+    float: left;
+}
+  
+.Menu
+{
+    display:flex;
+    padding: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+#barra
+{
+ background-color: black;
+ width: 100%;
+ max-width: 1200px;
+ height: 1px;
+}
+
+#Encabezado
+{
+    font-size: 30px;  
+    text-align: center;  
+    margin-top: 160px;
+    font-style: italic;
+}
+
+#Principal
+{
+    font-size: 17px;  
+    text-align: center;  
+    margin-left: 5px;
+    letter-spacing: normal;
+    margin-top: 40px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(211, 182, 182);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 19px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.RD
+{
+    width: 1000px;
+    height: 600px;
+    margin-left: 100px;
+
+}
+
+#Presentacion
+{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.footer {
+
+  margin-top: 60px;
+  color: white;
+  margin-left: 500px;
+  
+}
+
+.copyright
+{
+  margin-top: 145px;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  margin-left: 495px;
+
+}
+
+#barrafinal
+{
+  background-color: #fef2e5;
+  height: 15px;
+  border: none;
+}
+
+a 
+{
+    display:flex;
+    padding: 25px;
+    color: black;
+    text-decoration: none;
+}
+
+li
+{
+    float: left;
+}
+
+.Video
+{
+  margin-left: 325px;
+  margin-top:40px;
+
+}
+
+#Boton
+{
+    right: 2%;
+    bottom: 25px;
+    position:fixed;
+    height: 70px;
+    width: 70px;
+}
+
+#Heading
+{
+  font-size: 30px;  
+  font-style: italic;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.up
+{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E45E4E;
+    color: #fff;
+    cursor: pointer;
+}
