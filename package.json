@@ -1,0 +1,19 @@
+{
+  "name": "trabajo-final",
+  "version": "1.0.0",
+  "description": "Este proyecto va a contener una pagina web para ser desplegada en un servidor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adamguerrero1720/trabajo-final.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adamguerrero1720/trabajo-final/issues"
+  },
+  "homepage": "https://github.com/Adamguerrero1720/trabajo-final#readme"
+}
