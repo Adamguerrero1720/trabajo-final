@@ -18,12 +18,12 @@ Que se le agregue una paginacion incuyendo que nos pueda incluir las siguientes 
 
 | Endpoint | HTTP | Description |
 | ---| --- | --- |
-|'/'| GET | Pagina de Inicio | 
-|'/Galeria'| GET | Pagina con Imagenes |
-|'/Servicios'| GET | Pagina de Servicios |
-|'/Nosotros'| GET | Pagina acerca de nosotros |
-|'/Contacto'| GET | Pagina de contactame |
-|'/404'| GET | Pagina 404 |
+|`/`| GET | Pagina de Inicio | 
+|`/Galeria`| GET | Pagina con Imagenes |
+|`/Destino`| GET | Pagina de Destino |
+|`/Nosotros`| GET | Pagina acerca de nosotros |
+|`/Contacto`| GET | Pagina de contactame |
+|`/404`| GET | Pagina 404 |
 
 ## License
 MIT (c) Adam Guerrero Tejada

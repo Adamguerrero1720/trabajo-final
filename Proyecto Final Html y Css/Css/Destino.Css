@@ -81,9 +81,10 @@ ul
     display: flex;
     margin: 0px;
     justify-content: space-between;
-    width: 1300px;
+    width: 1200px;
     height: 510px;
-    margin-top: 120px   
+    margin-top: 120px;
+    margin-left: 20px;
 }
 
 #FaQ
