@@ -95,16 +95,17 @@ ul
     display: flex;
     margin: 5px;
     justify-content: space-between;
-    width: 1300px;
+    width: 1150px;
     height: 510px;
-    margin-top: 60px   
+    margin-top: 60px;
+    margin-left: 60px;
 }
 
 #Expertos
 {
     font-size: 30px;  
     text-align: center;  
-    margin-top: 140px;
+    margin-top: 110px;
     margin-bottom: 100px;
     font-style: italic;
 }
@@ -112,14 +113,20 @@ ul
 #Cajas2
 {
     list-style-type:disc;
-    margin-left: 50px;
+    margin-left: 130px;
 }
 
 .titulo
 {
     text-align:left;
     font-size: 20px;
+    margin-left: 70px;
     font-style: italic;
+}
+
+.texto
+{
+    margin-left: 70px;
 }
 
 .footer {

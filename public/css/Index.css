@@ -175,9 +175,10 @@ p
     display: flex;
     margin: 5px;
     justify-content: space-between;
-    width: 1200px;
+    width: 1050px;
     height: 510px;
-    margin-top: 120px   
+    margin-top: 120px;
+    margin-left: 150px;
 }
 
 .Fotos
@@ -225,7 +226,7 @@ p
 
 .logo 
 {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 50px;
     text-align: left;
     font-size: 35px;
