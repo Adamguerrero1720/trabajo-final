@@ -2,12 +2,12 @@ const express = require("express");
 const hbs = require('express-handlebars');
 const path = require('path');
 
-
 const app = express();
 
 const PORT = process.env.PORT || 4000;
+
 //Settings
-app.set("views engine", ".hbs");
+app.set("view engine", ".hbs");
 app.set('views', path.join(__dirname,  'views'));
 app.use (express.static(path.join(__dirname,  'public')));
 
@@ -15,41 +15,37 @@ app.use (express.static(path.join(__dirname,  'public')));
 app.engine('.hbs',
 hbs({
     defaultLayout: "main",
-    layoutDir: path.join(app.get ('views'), 'layout'),
+    layoutsDir: path.join(app.get ('views'), 'layout'),
     partialsDir: path.join(app.get ('views'), 'partials'),
-    extname: ".hbs"
+    extname: ".hbs",
 })
 );
 
 
 app.get('/',(req,res)=>{
-    res.send('Ruta de inicio de nuestro proyecto');
-})
-
-app.get('/Galeria',(req,res)=>{
-    res.send('Pagina de Galeria');
+    res.render('Home',{ruta:"css/Index.css"});
 })
 
 app.get('/Destino',(req,res)=>{
-    res.send('Pagina de Destino');
+    res.render('Destino',{ruta:"css/Destino.css"});
 })
 
 app.get('/Galeria',(req,res)=>{
-    res.send('Pagina de Galeria');
+    res.render('Galeria',{ruta:"css/Galeria.css"});
 })
 
 app.get('/Nosotros',(req,res)=>{
-    res.send('Pagina acerca de Nostros');
+    res.render('Nosotros',{ruta:"css/Nosotros.css"});
 })
 
 
 app.get('/Contacto',(req,res)=>{
-    res.send('Pagina de contactame');
+    res.render('Contacto',{ruta:"css/Contacto.css"});
 })
 
 
 app.get((req,res)=>{
-    res.send('404');
+    res.render('404',{ruta:"css/404.css"});
 })
 
 app.listen(PORT, ()=>{
